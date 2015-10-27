@@ -18,8 +18,8 @@
 		103E40951BDE9DA4009595F0 /* FirstModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 103E40931BDE9DA4009595F0 /* FirstModel.xcdatamodeld */; };
 		103E40981BDEA161009595F0 /* FirstEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103E40961BDEA161009595F0 /* FirstEntity+CoreDataProperties.swift */; };
 		103E40991BDEA161009595F0 /* FirstEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103E40971BDEA161009595F0 /* FirstEntity.swift */; };
-		10F64C461BDFF4B9004BFEB7 /* MDKits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F64C451BDFF4B9004BFEB7 /* MDKits.framework */; };
-		10F64C471BDFF4B9004BFEB7 /* MDKits.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 10F64C451BDFF4B9004BFEB7 /* MDKits.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		10F64C951BE005AF004BFEB7 /* MDKits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F64C941BE005AF004BFEB7 /* MDKits.framework */; };
+		10F64C961BE005AF004BFEB7 /* MDKits.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 10F64C941BE005AF004BFEB7 /* MDKits.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				10F64C471BDFF4B9004BFEB7 /* MDKits.framework in Embed Frameworks */,
+				10F64C961BE005AF004BFEB7 /* MDKits.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,7 +71,7 @@
 		103E40941BDE9DA4009595F0 /* FirstModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstModel.xcdatamodel; sourceTree = "<group>"; };
 		103E40961BDEA161009595F0 /* FirstEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FirstEntity+CoreDataProperties.swift"; path = "../FirstEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		103E40971BDEA161009595F0 /* FirstEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstEntity.swift; path = ../FirstEntity.swift; sourceTree = "<group>"; };
-		10F64C451BDFF4B9004BFEB7 /* MDKits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = MDKits.framework; path = "/Users/xpang/Library/Developer/Xcode/DerivedData/MDWorkspcae-gusmfgfkbaemqnbgsljdauzxjefy/Build/Products/Debug-iphoneos/MDKits.framework"; sourceTree = "<absolute>"; };
+		10F64C941BE005AF004BFEB7 /* MDKits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = MDKits.framework; path = "/Users/xpang/Library/Developer/Xcode/DerivedData/MDWorkspcae-gusmfgfkbaemqnbgsljdauzxjefy/Build/Products/Debug-iphoneos/MDKits.framework"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10F64C461BDFF4B9004BFEB7 /* MDKits.framework in Frameworks */,
+				10F64C951BE005AF004BFEB7 /* MDKits.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,7 @@
 		103E40541BDE939E009595F0 = {
 			isa = PBXGroup;
 			children = (
-				10F64C451BDFF4B9004BFEB7 /* MDKits.framework */,
+				10F64C941BE005AF004BFEB7 /* MDKits.framework */,
 				103E405F1BDE939E009595F0 /* MultipleDatabaseApp */,
 				103E40771BDE939E009595F0 /* MultipleDatabaseAppTests */,
 				103E40821BDE939E009595F0 /* MultipleDatabaseAppUITests */,

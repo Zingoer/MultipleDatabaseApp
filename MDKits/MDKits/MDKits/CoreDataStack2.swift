@@ -48,7 +48,12 @@ public class CoreDataStack2: NSObject {
         
         let modelURL = NSBundle(forClass: CoreDataStack2.self).URLForResource(self.modelName, withExtension: "momd")!
         
-        return NSManagedObjectModel(contentsOfURL: modelURL)!
+        if let modelUrl: NSURL = modelURL{
+            return NSManagedObjectModel(contentsOfURL: modelUrl)!
+        }else{
+            print("Can not find managed object model URL!")
+        }
+        
     }()    
     
     func saveContext () {

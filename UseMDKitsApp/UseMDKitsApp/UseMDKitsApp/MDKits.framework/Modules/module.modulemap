@@ -1,0 +1,10 @@
+framework module MDKits {
+  umbrella header "MDKits.h"
+
+  export *
+  module * { export * }
+}
+
+module MDKits.Swift {
+    header "MDKits-Swift.h"
+}
