@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-public class CoreDataStack2 {
+public class CoreDataStack2: NSObject {
     
     let modelName = "SecondModel"
     
@@ -46,15 +46,10 @@ public class CoreDataStack2 {
     
     private lazy var managedObjectModel: NSManagedObjectModel = {
         
-        let modelURL = NSBundle.mainBundle().URLForResource(self.modelName, withExtension: "momd")
-        if let modelUrl = modelURL{
-            return NSManagedObjectModel(contentsOfURL: modelUrl)!
-        }else{
-            return NSManagedObjectModel()
-        }
+        let modelURL = NSBundle(forClass: CoreDataStack2.self).URLForResource(self.modelName, withExtension: "momd")!
         
-    }()
-    
+        return NSManagedObjectModel(contentsOfURL: modelURL)!
+    }()    
     
     func saveContext () {
         if context.hasChanges {

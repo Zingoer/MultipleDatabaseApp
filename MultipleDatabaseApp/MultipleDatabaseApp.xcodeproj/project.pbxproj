@@ -18,11 +18,8 @@
 		103E40951BDE9DA4009595F0 /* FirstModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 103E40931BDE9DA4009595F0 /* FirstModel.xcdatamodeld */; };
 		103E40981BDEA161009595F0 /* FirstEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103E40961BDEA161009595F0 /* FirstEntity+CoreDataProperties.swift */; };
 		103E40991BDEA161009595F0 /* FirstEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103E40971BDEA161009595F0 /* FirstEntity.swift */; };
-		103E40E71BDFB394009595F0 /* AgeAdviser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103E40E11BDFB394009595F0 /* AgeAdviser.swift */; };
-		103E40E81BDFB394009595F0 /* CoreDataStack2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103E40E21BDFB394009595F0 /* CoreDataStack2.swift */; };
-		103E40E91BDFB394009595F0 /* SecondEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103E40E31BDFB394009595F0 /* SecondEntity.swift */; };
-		103E40EA1BDFB394009595F0 /* SecondEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103E40E41BDFB394009595F0 /* SecondEntity+CoreDataProperties.swift */; };
-		103E40EB1BDFB394009595F0 /* SecondModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 103E40E51BDFB394009595F0 /* SecondModel.xcdatamodeld */; };
+		10F64C461BDFF4B9004BFEB7 /* MDKits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F64C451BDFF4B9004BFEB7 /* MDKits.framework */; };
+		10F64C471BDFF4B9004BFEB7 /* MDKits.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 10F64C451BDFF4B9004BFEB7 /* MDKits.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +39,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		10F64C481BDFF4BA004BFEB7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				10F64C471BDFF4B9004BFEB7 /* MDKits.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		103E405D1BDE939E009595F0 /* MultipleDatabaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleDatabaseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		103E40601BDE939E009595F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,12 +71,7 @@
 		103E40941BDE9DA4009595F0 /* FirstModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstModel.xcdatamodel; sourceTree = "<group>"; };
 		103E40961BDEA161009595F0 /* FirstEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FirstEntity+CoreDataProperties.swift"; path = "../FirstEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		103E40971BDEA161009595F0 /* FirstEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstEntity.swift; path = ../FirstEntity.swift; sourceTree = "<group>"; };
-		103E40CC1BDEE7DB009595F0 /* MultipleServerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = MultipleServerFramework.framework; path = "/Users/xpang/Library/Developer/Xcode/DerivedData/MultipleDatabaseWorkspace-focbsofyqigxctditoumbhuuiohw/Build/Products/Debug-iphoneos/MultipleServerFramework.framework"; sourceTree = "<absolute>"; };
-		103E40E11BDFB394009595F0 /* AgeAdviser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeAdviser.swift; sourceTree = "<group>"; };
-		103E40E21BDFB394009595F0 /* CoreDataStack2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack2.swift; sourceTree = "<group>"; };
-		103E40E31BDFB394009595F0 /* SecondEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondEntity.swift; sourceTree = "<group>"; };
-		103E40E41BDFB394009595F0 /* SecondEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SecondEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		103E40E61BDFB394009595F0 /* SecondModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SecondModel.xcdatamodel; sourceTree = "<group>"; };
+		10F64C451BDFF4B9004BFEB7 /* MDKits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = MDKits.framework; path = "/Users/xpang/Library/Developer/Xcode/DerivedData/MDWorkspcae-gusmfgfkbaemqnbgsljdauzxjefy/Build/Products/Debug-iphoneos/MDKits.framework"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10F64C461BDFF4B9004BFEB7 /* MDKits.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +103,7 @@
 		103E40541BDE939E009595F0 = {
 			isa = PBXGroup;
 			children = (
-				103E40CC1BDEE7DB009595F0 /* MultipleServerFramework.framework */,
+				10F64C451BDFF4B9004BFEB7 /* MDKits.framework */,
 				103E405F1BDE939E009595F0 /* MultipleDatabaseApp */,
 				103E40771BDE939E009595F0 /* MultipleDatabaseAppTests */,
 				103E40821BDE939E009595F0 /* MultipleDatabaseAppUITests */,
@@ -122,11 +129,6 @@
 				103E40911BDE9455009595F0 /* CoreDataStack.swift */,
 				103E40961BDEA161009595F0 /* FirstEntity+CoreDataProperties.swift */,
 				103E40971BDEA161009595F0 /* FirstEntity.swift */,
-				103E40E11BDFB394009595F0 /* AgeAdviser.swift */,
-				103E40E21BDFB394009595F0 /* CoreDataStack2.swift */,
-				103E40E31BDFB394009595F0 /* SecondEntity.swift */,
-				103E40E41BDFB394009595F0 /* SecondEntity+CoreDataProperties.swift */,
-				103E40E51BDFB394009595F0 /* SecondModel.xcdatamodeld */,
 				103E40641BDE939E009595F0 /* Main.storyboard */,
 				103E406A1BDE939E009595F0 /* Assets.xcassets */,
 				103E406C1BDE939E009595F0 /* LaunchScreen.storyboard */,
@@ -164,6 +166,7 @@
 				103E40591BDE939E009595F0 /* Sources */,
 				103E405A1BDE939E009595F0 /* Frameworks */,
 				103E405B1BDE939E009595F0 /* Resources */,
+				10F64C481BDFF4BA004BFEB7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -287,15 +290,10 @@
 			files = (
 				103E40951BDE9DA4009595F0 /* FirstModel.xcdatamodeld in Sources */,
 				103E40981BDEA161009595F0 /* FirstEntity+CoreDataProperties.swift in Sources */,
-				103E40E81BDFB394009595F0 /* CoreDataStack2.swift in Sources */,
 				103E40631BDE939E009595F0 /* ViewController.swift in Sources */,
 				103E40611BDE939E009595F0 /* AppDelegate.swift in Sources */,
 				103E40921BDE9455009595F0 /* CoreDataStack.swift in Sources */,
-				103E40EB1BDFB394009595F0 /* SecondModel.xcdatamodeld in Sources */,
 				103E40991BDEA161009595F0 /* FirstEntity.swift in Sources */,
-				103E40E71BDFB394009595F0 /* AgeAdviser.swift in Sources */,
-				103E40EA1BDFB394009595F0 /* SecondEntity+CoreDataProperties.swift in Sources */,
-				103E40E91BDFB394009595F0 /* SecondEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,16 +552,6 @@
 			);
 			currentVersion = 103E40941BDE9DA4009595F0 /* FirstModel.xcdatamodel */;
 			path = FirstModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		103E40E51BDFB394009595F0 /* SecondModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				103E40E61BDFB394009595F0 /* SecondModel.xcdatamodel */,
-			);
-			currentVersion = 103E40E61BDFB394009595F0 /* SecondModel.xcdatamodel */;
-			path = SecondModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

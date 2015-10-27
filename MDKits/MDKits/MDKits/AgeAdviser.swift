@@ -24,8 +24,10 @@ public class AgeAdviser {
     public init(){
         managedContext = coreDataStack2.context
         
+        let entities: NSDictionary = (managedContext.persistentStoreCoordinator?.managedObjectModel.entitiesByName)!
+        debugPrint("\(entities.allKeys)")
         let secondEntity = NSEntityDescription.entityForName("SecondEntity", inManagedObjectContext: managedContext)
-        let age = "25"
+        let age = "27"
         let entityFetch = NSFetchRequest(entityName: "SecondEntity")
         entityFetch.predicate = NSPredicate(format: "age == %@", age)
         
