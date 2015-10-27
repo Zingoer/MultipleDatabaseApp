@@ -24,11 +24,21 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uts-lS-YdJ">
+                                <rect key="frame" x="214" y="351" width="172" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Check Another Database"/>
+                                <connections>
+                                    <action selector="checkAnotherDatabase:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qUa-K0-fyd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="uts-lS-YdJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6Fm-45-dCk"/>
                             <constraint firstItem="dzn-EF-JXP" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="OgE-nl-sFn"/>
+                            <constraint firstItem="uts-lS-YdJ" firstAttribute="top" secondItem="dzn-EF-JXP" secondAttribute="bottom" constant="40" id="cNb-lr-rFK"/>
                             <constraint firstItem="dzn-EF-JXP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jHq-d1-cHh"/>
                             <constraint firstItem="dzn-EF-JXP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ubt-II-AG2"/>
                         </constraints>

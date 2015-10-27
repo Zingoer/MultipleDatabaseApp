@@ -14,12 +14,10 @@ class ViewController: UIViewController {
     
 
     @IBOutlet weak var label1: UILabel!
-    @IBOutlet weak var label2: UILabel!
     
     
     var managedContext: NSManagedObjectContext!
     var currentFirstEntity: FirstEntity!
-    var currentSecondEntity = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,9 +46,15 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func checkAnotherDatabase(sender: AnyObject) {
+        let ageAdviser = AgeAdviser()
+        label1.text = "\(currentFirstEntity.name!) is \(ageAdviser.age) years old"
+    }
+    
+    
     override func viewDidAppear(animated: Bool) {
         
-        label1.text = "\(currentFirstEntity.name!) is \(currentSecondEntity) years old"
+        label1.text = "\(currentFirstEntity.name!) is ? years old"
     }
 
     override func didReceiveMemoryWarning() {

@@ -18,6 +18,11 @@
 		103E40951BDE9DA4009595F0 /* FirstModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 103E40931BDE9DA4009595F0 /* FirstModel.xcdatamodeld */; };
 		103E40981BDEA161009595F0 /* FirstEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103E40961BDEA161009595F0 /* FirstEntity+CoreDataProperties.swift */; };
 		103E40991BDEA161009595F0 /* FirstEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103E40971BDEA161009595F0 /* FirstEntity.swift */; };
+		103E40E71BDFB394009595F0 /* AgeAdviser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103E40E11BDFB394009595F0 /* AgeAdviser.swift */; };
+		103E40E81BDFB394009595F0 /* CoreDataStack2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103E40E21BDFB394009595F0 /* CoreDataStack2.swift */; };
+		103E40E91BDFB394009595F0 /* SecondEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103E40E31BDFB394009595F0 /* SecondEntity.swift */; };
+		103E40EA1BDFB394009595F0 /* SecondEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103E40E41BDFB394009595F0 /* SecondEntity+CoreDataProperties.swift */; };
+		103E40EB1BDFB394009595F0 /* SecondModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 103E40E51BDFB394009595F0 /* SecondModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,12 @@
 		103E40941BDE9DA4009595F0 /* FirstModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstModel.xcdatamodel; sourceTree = "<group>"; };
 		103E40961BDEA161009595F0 /* FirstEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FirstEntity+CoreDataProperties.swift"; path = "../FirstEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		103E40971BDEA161009595F0 /* FirstEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstEntity.swift; path = ../FirstEntity.swift; sourceTree = "<group>"; };
+		103E40CC1BDEE7DB009595F0 /* MultipleServerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = MultipleServerFramework.framework; path = "/Users/xpang/Library/Developer/Xcode/DerivedData/MultipleDatabaseWorkspace-focbsofyqigxctditoumbhuuiohw/Build/Products/Debug-iphoneos/MultipleServerFramework.framework"; sourceTree = "<absolute>"; };
+		103E40E11BDFB394009595F0 /* AgeAdviser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeAdviser.swift; sourceTree = "<group>"; };
+		103E40E21BDFB394009595F0 /* CoreDataStack2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack2.swift; sourceTree = "<group>"; };
+		103E40E31BDFB394009595F0 /* SecondEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondEntity.swift; sourceTree = "<group>"; };
+		103E40E41BDFB394009595F0 /* SecondEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SecondEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		103E40E61BDFB394009595F0 /* SecondModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SecondModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +96,7 @@
 		103E40541BDE939E009595F0 = {
 			isa = PBXGroup;
 			children = (
+				103E40CC1BDEE7DB009595F0 /* MultipleServerFramework.framework */,
 				103E405F1BDE939E009595F0 /* MultipleDatabaseApp */,
 				103E40771BDE939E009595F0 /* MultipleDatabaseAppTests */,
 				103E40821BDE939E009595F0 /* MultipleDatabaseAppUITests */,
@@ -110,6 +122,11 @@
 				103E40911BDE9455009595F0 /* CoreDataStack.swift */,
 				103E40961BDEA161009595F0 /* FirstEntity+CoreDataProperties.swift */,
 				103E40971BDEA161009595F0 /* FirstEntity.swift */,
+				103E40E11BDFB394009595F0 /* AgeAdviser.swift */,
+				103E40E21BDFB394009595F0 /* CoreDataStack2.swift */,
+				103E40E31BDFB394009595F0 /* SecondEntity.swift */,
+				103E40E41BDFB394009595F0 /* SecondEntity+CoreDataProperties.swift */,
+				103E40E51BDFB394009595F0 /* SecondModel.xcdatamodeld */,
 				103E40641BDE939E009595F0 /* Main.storyboard */,
 				103E406A1BDE939E009595F0 /* Assets.xcassets */,
 				103E406C1BDE939E009595F0 /* LaunchScreen.storyboard */,
@@ -270,10 +287,15 @@
 			files = (
 				103E40951BDE9DA4009595F0 /* FirstModel.xcdatamodeld in Sources */,
 				103E40981BDEA161009595F0 /* FirstEntity+CoreDataProperties.swift in Sources */,
+				103E40E81BDFB394009595F0 /* CoreDataStack2.swift in Sources */,
 				103E40631BDE939E009595F0 /* ViewController.swift in Sources */,
 				103E40611BDE939E009595F0 /* AppDelegate.swift in Sources */,
 				103E40921BDE9455009595F0 /* CoreDataStack.swift in Sources */,
+				103E40EB1BDFB394009595F0 /* SecondModel.xcdatamodeld in Sources */,
 				103E40991BDEA161009595F0 /* FirstEntity.swift in Sources */,
+				103E40E71BDFB394009595F0 /* AgeAdviser.swift in Sources */,
+				103E40EA1BDFB394009595F0 /* SecondEntity+CoreDataProperties.swift in Sources */,
+				103E40E91BDFB394009595F0 /* SecondEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MultipleDatabaseApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Zingoer.MultipleDatabaseApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,7 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MultipleDatabaseApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Zingoer.MultipleDatabaseApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,6 +524,7 @@
 				103E408A1BDE939E009595F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		103E408B1BDE939E009595F0 /* Build configuration list for PBXNativeTarget "MultipleDatabaseAppTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +533,7 @@
 				103E408D1BDE939E009595F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		103E408E1BDE939E009595F0 /* Build configuration list for PBXNativeTarget "MultipleDatabaseAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +542,7 @@
 				103E40901BDE939E009595F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -529,6 +554,16 @@
 			);
 			currentVersion = 103E40941BDE9DA4009595F0 /* FirstModel.xcdatamodel */;
 			path = FirstModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		103E40E51BDFB394009595F0 /* SecondModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				103E40E61BDFB394009595F0 /* SecondModel.xcdatamodel */,
+			);
+			currentVersion = 103E40E61BDFB394009595F0 /* SecondModel.xcdatamodel */;
+			path = SecondModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
