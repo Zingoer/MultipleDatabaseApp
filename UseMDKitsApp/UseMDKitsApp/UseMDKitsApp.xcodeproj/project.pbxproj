@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1083F2811BE031DF003733CB /* MDKits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1083F27F1BE031D6003733CB /* MDKits.framework */; };
+		1083F2821BE031DF003733CB /* MDKits.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1083F27F1BE031D6003733CB /* MDKits.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		10F64CA41BE006C3004BFEB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F64CA31BE006C3004BFEB7 /* AppDelegate.swift */; };
 		10F64CA61BE006C3004BFEB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F64CA51BE006C3004BFEB7 /* ViewController.swift */; };
 		10F64CA91BE006C3004BFEB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F64CA71BE006C3004BFEB7 /* Main.storyboard */; };
@@ -15,8 +17,6 @@
 		10F64CB11BE006C3004BFEB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F64CAF1BE006C3004BFEB7 /* LaunchScreen.storyboard */; };
 		10F64CBC1BE006C3004BFEB7 /* UseMDKitsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F64CBB1BE006C3004BFEB7 /* UseMDKitsAppTests.swift */; };
 		10F64CC71BE006C3004BFEB7 /* UseMDKitsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F64CC61BE006C3004BFEB7 /* UseMDKitsAppUITests.swift */; };
-		10F64CDE1BE00818004BFEB7 /* MDKits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F64CDC1BE0080E004BFEB7 /* MDKits.framework */; };
-		10F64CDF1BE00818004BFEB7 /* MDKits.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 10F64CDC1BE0080E004BFEB7 /* MDKits.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				10F64CDF1BE00818004BFEB7 /* MDKits.framework in Embed Frameworks */,
+				1083F2821BE031DF003733CB /* MDKits.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,6 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1083F27F1BE031D6003733CB /* MDKits.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MDKits.framework; path = UseMDKitsApp/MDKits.framework; sourceTree = "<group>"; };
 		10F64CA01BE006C3004BFEB7 /* UseMDKitsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UseMDKitsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F64CA31BE006C3004BFEB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10F64CA51BE006C3004BFEB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +66,6 @@
 		10F64CC21BE006C3004BFEB7 /* UseMDKitsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UseMDKitsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F64CC61BE006C3004BFEB7 /* UseMDKitsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseMDKitsAppUITests.swift; sourceTree = "<group>"; };
 		10F64CC81BE006C3004BFEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10F64CDC1BE0080E004BFEB7 /* MDKits.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MDKits.framework; path = UseMDKitsApp/MDKits.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10F64CDE1BE00818004BFEB7 /* MDKits.framework in Frameworks */,
+				1083F2811BE031DF003733CB /* MDKits.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +101,7 @@
 				10F64CBA1BE006C3004BFEB7 /* UseMDKitsAppTests */,
 				10F64CC51BE006C3004BFEB7 /* UseMDKitsAppUITests */,
 				10F64CA11BE006C3004BFEB7 /* Products */,
-				10F64CDC1BE0080E004BFEB7 /* MDKits.framework */,
+				1083F27F1BE031D6003733CB /* MDKits.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -520,6 +520,7 @@
 				10F64CCD1BE006C3004BFEB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10F64CCE1BE006C3004BFEB7 /* Build configuration list for PBXNativeTarget "UseMDKitsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +529,7 @@
 				10F64CD01BE006C3004BFEB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10F64CD11BE006C3004BFEB7 /* Build configuration list for PBXNativeTarget "UseMDKitsAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +538,7 @@
 				10F64CD31BE006C3004BFEB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

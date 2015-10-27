@@ -14,7 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8yVEa67NToCmGE7o1gLKUqXP31M=
+		lLa/MDptuB1iAadANCCnvEOwo1w=
+		</data>
+		<key>Modules/MDKits.swiftmodule/arm.swiftdoc</key>
+		<data>
+		RRDNq0tUb7M7c95GGWWFttVIe4s=
+		</data>
+		<key>Modules/MDKits.swiftmodule/arm.swiftmodule</key>
+		<data>
+		TS2ia1BgHyLCV5e0UoD6Onv1KDs=
 		</data>
 		<key>Modules/MDKits.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -46,6 +54,14 @@
 		<key>Headers/MDKits.h</key>
 		<data>
 		I81Pr5kgjY9gOCKoXv4PoafTMPs=
+		</data>
+		<key>Modules/MDKits.swiftmodule/arm.swiftdoc</key>
+		<data>
+		RRDNq0tUb7M7c95GGWWFttVIe4s=
+		</data>
+		<key>Modules/MDKits.swiftmodule/arm.swiftmodule</key>
+		<data>
+		TS2ia1BgHyLCV5e0UoD6Onv1KDs=
 		</data>
 		<key>Modules/MDKits.swiftmodule/arm64.swiftdoc</key>
 		<data>
